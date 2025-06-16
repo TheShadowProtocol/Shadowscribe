@@ -44,7 +44,8 @@ echo "OPENROUTER_API_KEY=your_api_key_here" > .en
 # Run the app
 streamlit run app.py
 
-real app will come soon ..................   will be available on realease section just wait..............
+real app will come soon ..................   will be available on release section just wait..............
+app is released check it out ⭕✅✔️
 
 
 
