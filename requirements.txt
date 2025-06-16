@@ -44,7 +44,6 @@ pyinstaller-hooks-contrib==2025.5
 PyPDF2==3.0.1
 python-dateutil==2.9.0.post0
 python-docx==1.1.2
-PyMuPDF==3.0.1
 python-dotenv==1.0.0
 pytz==2025.2
 pywin32-ctypes==0.2.3
