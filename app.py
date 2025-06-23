@@ -40,7 +40,7 @@ def inject_custom_css(logo_path, bg_path):
 st.set_page_config(page_title="Shadow Scribe", page_icon="🌒 📝", layout="centered")
 inject_custom_css("logo.png", "dark-bg.jpg")
 
-st.title("📝 Shadow Scribe")
+st.title("📝🌒Shadow Scribe")
 st.caption("Where silence meets syntax. Summarized by Shadow’s mind.")
 
 # ────────────────────────────── TABS ────────────────────────────── #
@@ -72,7 +72,7 @@ with tab3:
         text_input = url_input  # Let backend decide it's a URL
 
 # ────────────────────────────── Options & Generate ────────────────────────────── #
-tone = st.selectbox("🗣️ Tone", ["Formal", "Casual", "Horny", "Spoony"])
+tone = st.selectbox("🗣️ Tone", ["Formal", "Casual", "Detailed" ])
 length = st.selectbox("📏 Length", ["Short", "Medium", "Detailed"])
 
 if st.button("⚡ Summarize Now"):
